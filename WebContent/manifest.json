@@ -3,7 +3,7 @@
      "id" : "smax.batch28.A1",
      "dataSources" : {
         "smaxProducts" : {
-          "uri" : "proxy/http/122.180.87.238:8000/sap/opu/odata/SAP/ZGW_BATCH28_PRODUCT_SRV/"
+          "uri" : "proxy/http/122.180.87.238:8000/sap/opu/odata/SAP/ZGW_BATCH28_PRODUCT_SRV_01/"
         }
      }
  },
@@ -29,7 +29,7 @@
 				  "viewName" : "ProductList"				  
 				},
 				{
-				  "pattern" : "toDetail",
+				  "pattern" : "toDetail/{prodID}",
 				  "name" : "productDetailsName",
 				  "viewName" : "ProductDetails"				  
 				}				
