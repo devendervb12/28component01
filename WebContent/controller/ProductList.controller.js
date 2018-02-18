@@ -37,6 +37,9 @@ sap.ui.controller("smax.batch28.A1.controller.ProductList", {
 	onPress : function(){
 		// navigate to ProductDetails
 		this.getOwnerComponent().getRouter().navTo("productDetailsName");
+	},
+	onItemPress : function(){
+		this.getOwnerComponent().getRouter().navTo("productDetailsName");
 	}
 });
 

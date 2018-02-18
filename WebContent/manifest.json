@@ -1,6 +1,19 @@
 {
+ "sap.app" : {
+     "id" : "smax.batch28.A1",
+     "dataSources" : {
+        "smaxProducts" : {
+          "uri" : "proxy/http/122.180.87.238:8000/sap/opu/odata/SAP/ZGW_BATCH28_PRODUCT_SRV/"
+        }
+     }
+ },
  "sap.ui5" : {
  	    "rootView" : "smax.batch28.A1.view.App",
+ 	    "models" : {
+ 	       "" : {
+ 	        "dataSource" : "smaxProducts"
+ 	       }
+ 	    },
 		"routing" : {
 			"config" : {
 				"routerClass" : "sap.m.routing.Router",
