@@ -1,0 +1,26 @@
+{
+ "sap.ui5" : {
+ 	    "rootView" : "smax.batch28.A1.view.App",
+		"routing" : {
+			"config" : {
+				"routerClass" : "sap.m.routing.Router",
+				"viewType" : "XML",
+				"controlId" : "idApp",
+				"controlAggregation" : "pages",
+				"viewPath" : "smax.batch28.A1.view"
+			},
+			"routes" : [
+				{
+				  "pattern" : "",
+				  "name" : "productListName",
+				  "viewName" : "ProductList"				  
+				},
+				{
+				  "pattern" : "toDetail",
+				  "name" : "productDetailsName",
+				  "viewName" : "ProductDetails"				  
+				}				
+			]
+		}
+ }
+}
